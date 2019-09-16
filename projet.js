@@ -3,14 +3,11 @@ var id = Math.floor(Math.random() * 800);
   $.getJSON("https://pokeapi.co/api/v2/pokemon/" + id, function(data){
   $.getJSON("https://pokeapi.co/api/v2/pokemon-species/" + id, function(poke){
 
-console.log(poke);
-
 var name = "Name : " + data.name.charAt(0).toUpperCase() + data.name.slice(1);
 var sprite = data.sprites.front_default;
 var type = "Type : " + data.types[0].type.name.charAt(0).toUpperCase() + data.types[0].type.name.slice(1);
 var weight = "Weight : " + data.weight / 10 + " kg";
 var size = "Height : " + data.height / 10 + " meters";
-
 
 if (poke.flavor_text_entries[0].language.name.indexOf("en") >= 0) {
   var description = "Description : " + poke.flavor_text_entries[0].flavor_text;
