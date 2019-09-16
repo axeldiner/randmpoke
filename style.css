@@ -1,0 +1,66 @@
+body,h1,p {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+body {background-color: grey}
+
+.pokemon-container {
+  text-align: -webkit-center;
+  border: solid #FFDE00;
+  border-radius: 10px;
+  height: 280px;
+  width : 480px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  font-size: 16px;
+  overflow: hidden;
+  }
+
+.pokemon-sprite {
+  height: 175px;
+}
+
+.header {
+  text-align: -webkit-center;
+  height:130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.header img {
+  height: 100%;
+}
+
+.button {
+  background-color: #FFDE00; /* Green */
+  border: none;
+  border-radius:10px;
+  color: #3B4CCA;
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.container1 {
+  width: 238px;
+  height: 180px;
+  float:left;
+}
+
+.container2 {
+  width: 238px;
+  height: 180px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.containerbas {
+  padding-right: 5px;
+  padding-left: 5px;
+}
