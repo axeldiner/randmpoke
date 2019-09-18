@@ -72,7 +72,10 @@ body {background-color: grey}
 
 .footer {
   text-align: center;
-  color: #CC0000;
   display: block;
-  background-color: #efefef;
+}
+
+a {
+  text-decoration: none;
+  color: #CC0000;
 }
